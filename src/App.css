@@ -1,0 +1,124 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.notosanskr * { 
+  font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #eee;
+  min-height: 965px;
+}
+
+* {
+  padding: 0;
+}
+
+.search {
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar {
+  background: #000;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px;
+}
+
+ul li {
+  display: inline-block;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+
+h4{
+  font-size: 24px;
+  margin: 20px 0px;
+}
+
+
+header { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  height: 100px; 
+  border-bottom: 1px solid hsl(0, 0%, 52%); 
+  background-color: transparent;
+  padding: 10px 100px 10px 100px;
+}
+
+.country-list {
+  width: 1920;
+}
+
+.country-detail {
+  width: 1600;
+  margin: 10px 20px 10px 30px;
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  padding: 0px 0px 0px 80px;
+}
+
+.country-list .item {
+  width: 22%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 20px 10px 30px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #dddddd;
+  align-items: center;
+}
+
+.country-list .item img{
+  width: 100%;
+  aspect-ratio: 7 / 5;
+  object-fit: cover;
+}
+
+.country-detail .item{
+  width: 60%;
+  padding-left: 20px;
+}
+
+.country-detail .detail_text{
+  width: 50%;
+}
+.country-detail .item img{
+  width: 95%;
+  aspect-ratio: 9 / 5;
+  object-fit: cover;
+  align-items: center;
+}
+
+.back {
+  border-radius: 8px;
+  border: 1px solid hsl(0, 0%, 52%);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 30px 0px 0px 100px;
+}
